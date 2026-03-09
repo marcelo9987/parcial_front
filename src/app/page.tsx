@@ -5,7 +5,6 @@ import {useEffect, useState} from "react";
 import {CocktailCompleto} from "@/types/CocktailCompleto";
 import {getCocktailByName, getRandomCocktail} from "@/lib/api/cocktail";
 import {Cocktail} from "@/components/Cocktail";
-import {router} from "next/client";
 import {redirect} from "next/navigation";
 
 
