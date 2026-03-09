@@ -1,7 +1,6 @@
 import axios from "axios";
 
-const api = axios.create(
-    {
-        baseUrl:'',
-        timeout: 5000;
-    }
+export const api = axios.create({
+    baseURL: "https://www.thecocktaildb.com/api",
+    timeout: 10000000,
+});

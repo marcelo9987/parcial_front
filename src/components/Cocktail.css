@@ -1,0 +1,11 @@
+.cocktail-card{
+    max-width: 20rem;
+    border: 1px;
+    padding: 10px;
+    transition: background-color 0.3s;
+    background-color: blueviolet;
+    text-align: center;
+}
+.cocktail-card:hover {
+    background-color: indianred;
+}
